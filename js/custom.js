@@ -456,6 +456,22 @@ jQuery(function($){
 	$('.navbar-nav').on('click', 'li a', function() {
 	  $('.navbar-collapse').collapse('hide');
 	});
+    
+    
+    // Contact form
+	var form = $('#main-contact-form');
+	form.submit(function(event){
+		event.preventDefault();
+		var form_status = $('<div class="form_status"></div>');
+		$.ajax({
+			url: $(this).attr('action'),
+			beforeSend: function(){
+				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando a mensagem...</p>').fadeIn() );
+			}
+		}).done(function(data){
+			form_status.html('<p class="text-success">Obrigado pelo contato. Entraremos em contato assim que possível :)</p>').delay(3000).fadeOut();
+		});
+	});
 
 	
 });
