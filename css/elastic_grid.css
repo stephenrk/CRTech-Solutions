@@ -5,8 +5,8 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+	/*padding: 0;
+	margin: 0;*/ /*Edited by CRTech Soluitions: Fix p/ exibir o efeito lista nas tags 'li'*/
 }
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
