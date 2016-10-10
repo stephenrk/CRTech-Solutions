@@ -31,20 +31,12 @@
         <!-- smooth animate css file -->
         <link rel="stylesheet" href="css/animate.css">  
         <!-- Elastic grid css file -->
-        <link rel="stylesheet" href="css/elastic_grid.css">
         <!-- Circle counter cdn css file -->
         <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>    
         <!-- Default Theme css file -->
         <link id="orginal" href="css/themes/flamingo-theme.css" rel="stylesheet">
         <!-- Main structure css file -->
         <link href="style.css" rel="stylesheet">
-        
-        <style>
-            .modal-open .modal {
-                overflow-x: hidden !important; 
-                overflow-y: auto !important; 
-            }
-        </style>
         
         <!-- Google fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -66,7 +58,7 @@
         <!-- END PRELOADER -->
         
         <!-- SCROLL TOP BUTTON -->
-        <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+        <a id="scrollToTop" class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
         <!-- END SCROLL TOP BUTTON -->
         
         <!--=========== BEGIN HEADER SECTION ================-->
@@ -569,11 +561,16 @@
         <!-- for portfolio filter gallery -->
         <script src="js/modernizr.custom.js"></script>
         <script src="js/classie.js"></script>
-        <script src="js/elastic_grid.min.js"></script>
-        <script src="js/portfolio_slider.js"></script>
-        
         <!-- Custom js-->
         <script src="js/custom.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                console.log('Site em desenvolvimento');
+                console.log('..:: Backlog ::..');
+                console.log('Corrigir: Ao exibir modal, desativar a rolagem do fundo da página');
+            }
+        </script>
         
     </body>
 </html>
