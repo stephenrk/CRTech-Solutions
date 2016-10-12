@@ -383,6 +383,7 @@ img{
   display: inline;
   float: left;
   width: 100%;
+  margin-top: -14px;
   padding: 80px 0px;
 }
 .about_area{
@@ -543,6 +544,7 @@ div[data-dimension] {
   display: inline;
   float: left;
   padding: 80px 0 70px;
+  margin-top: -14px;
   width: 100%;
 }
 .service_area{
@@ -610,6 +612,7 @@ div[data-dimension] {
   display: inline;
   float: left;
   padding: 0 0 80px;
+  margin-top: -14px;
   width: 100%;
 }
 .counter_section {
@@ -712,7 +715,8 @@ div[data-dimension] {
 	float: left;
 	display: inline;
 	width: 100%;
-	padding:80px 0px; 
+	padding:80px 0px;
+    margin-top: -14px;
 }
 .team_area{
 	float: left;
@@ -794,6 +798,7 @@ div[data-dimension] {
   display: inline;
   float: left;
   padding: 80px 0;
+  margin-top: -14px;
   width: 100%;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
@@ -884,6 +889,7 @@ div[data-dimension] {
 	display: inline;
 	width: 100%;
 	padding: 80px 0px;
+    margin-top: -14px;
 }
 .blog_content {
   display: inline;
@@ -993,6 +999,7 @@ div[data-dimension] {
 	display: inline;
 	float: left;
 	padding: 80px 0;
+    margin-top: -14px;
 	width: 100%;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
@@ -1087,6 +1094,7 @@ div[data-dimension] {
   display: inline;
   float: left;
   padding: 80px 0 150px;
+  margin-top: -14px;
   width: 100%;
 }
 .clients_content{
@@ -1135,6 +1143,7 @@ div[data-dimension] {
 	display: inline;
 	float: left;
 	padding: 80px 0px 0px;
+    margin-top: -14px;
 	width: 100%;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;	

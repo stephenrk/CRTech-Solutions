@@ -19,7 +19,7 @@
 	12. SCROLL TOP BUTTON
 	13. PRELOADER 
 	14. MENU SCROLL 
-	15. MOBILE MENU CLOSE 	
+	15. MOBILE MENU CLOSE
 	
 **/
 
@@ -457,14 +457,6 @@ jQuery(function($){
 	  $('.navbar-collapse').collapse('hide');
 	});
     
-    // Esconde o botão 'scrollToTop' quando o modal é exibido e exibe ao fechar o modal
-    var element = document.getElementsByClassName('scrollToTop');
-    $('#servManutencao').on('shown.bs.modal', function () {
-        element[0].style.display = 'none';
-    })
-    $('#servManutencao').on('hidden.bs.modal', function () {
-        element[0].style.display = 'inline';
-    })
     
     // Contact form
 	/*var form = $('#main-contact-form');
