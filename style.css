@@ -1464,16 +1464,16 @@ textarea .form-control {
 	.team_social a {font-size: 15px;height: 30px;line-height: 30px;width: 30px;}
 	.blog_slider .slick-prev {left: 86.5%;}
 	.og-close {z-index: 999;}
-	#about {padding: 50px 0;}
-	#service {padding: 50px 0 50px;}
-	#works {padding: 0 0 50px;}
-	#team {padding: 50px 0;}
-	#pricing {padding: 50px 0;}
-	#blog {padding: 50px 0;}
-	#testimonial {padding: 50px 0;}
-	#clients {padding: 50px 0 100px;}
-	#contact {padding: 50px 0 0;}
-	#subscribe {padding: 50px  0;}
+	/*#about {padding: 50px 0; margin-top: -14px;}*/
+	/*#service {padding: 50px 0 50px; margin-top: -14px;}*/
+	#works {padding: 0 0 50px; margin-top: -14px;}
+	#team {padding: 50px 0; margin-top: -14px;}
+	#pricing {padding: 50px 0; margin-top: -14px;}
+	#blog {padding: 50px 0; margin-top: -14px;}
+	#testimonial {padding: 50px 0; margin-top: -14px;}
+	#clients {padding: 50px 0 100px; margin-top: -14px;}
+	/*#contact {padding: 50px 0 0; margin-top: -14px;}*/
+	#subscribe {padding: 50px  0; margin-top: -14px;}
 	.social_nav {margin-top: 20px;text-align: center;}
 	.footer_left {text-align: center;}
 	.single_service > .service_title:after {left: 41%;}	
