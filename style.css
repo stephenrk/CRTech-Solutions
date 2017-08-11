@@ -483,6 +483,8 @@ img{
 }
 .single_iteam img {
   max-width: 100%;
+  width: 550px;
+  height: 350px;
 }
 .about_slider .slick-dots li button:before {
   content: "•";
